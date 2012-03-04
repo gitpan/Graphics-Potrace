@@ -5,6 +5,18 @@ use strict;
 use warnings;
 use ExtUtils::MakeMaker 6.30;
 
+
+if (open my $olderr, '>&', \*STDERR) {
+   close STDERR;
+   my $exists = open my $fh, '|-', 'potrace';
+   close $fh;
+   open STDERR, '>&', $olderr;
+   if (! $exists) {
+      warn "potrace not found, avoiding generating Makefile\n";
+      exit 0;
+   }
+}
+
 my %WriteMakefileArgs = (
   'ABSTRACT' => 'bindings to the potrace library',
   'AUTHOR' => 'Flavio Poletti <polettix@cpan.org>',
@@ -23,7 +35,7 @@ my %WriteMakefileArgs = (
   'PREREQ_PM' => {
     'Moo' => '0.009011'
   },
-  'VERSION' => '0.1.0_01',
+  'VERSION' => '0.1.0_03',
   'test' => {
     'TESTS' => 't/*.t'
   }

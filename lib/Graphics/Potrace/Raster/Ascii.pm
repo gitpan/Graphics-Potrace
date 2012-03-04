@@ -1,6 +1,6 @@
 package Graphics::Potrace::Raster::Ascii;
 {
-  $Graphics::Potrace::Raster::Ascii::VERSION = '0.1.0_01';
+  $Graphics::Potrace::Raster::Ascii::VERSION = '0.1.0_03';
 }
 
 # ABSTRACT: importer of ASCII images for Graphics::Potrace
@@ -50,7 +50,7 @@ Graphics::Potrace::Raster::Ascii - importer of ASCII images for Graphics::Potrac
 
 =head1 VERSION
 
-version 0.1.0_01
+version 0.1.0_03
 
 =head1 SYNOPSIS
 

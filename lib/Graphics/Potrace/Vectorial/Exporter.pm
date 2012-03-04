@@ -1,6 +1,6 @@
 package Graphics::Potrace::Vectorial::Exporter;
 {
-  $Graphics::Potrace::Vectorial::Exporter::VERSION = '0.1.0_01';
+  $Graphics::Potrace::Vectorial::Exporter::VERSION = '0.1.0_03';
 }
 
 # ABSTRACT: vectorial exporter base class for Graphics::Potrace
@@ -105,7 +105,7 @@ Graphics::Potrace::Vectorial::Exporter - vectorial exporter base class for Graph
 
 =head1 VERSION
 
-version 0.1.0_01
+version 0.1.0_03
 
 =head1 DESCRIPTION
 

@@ -1,6 +1,6 @@
 package Graphics::Potrace::Raster;
 {
-  $Graphics::Potrace::Raster::VERSION = '0.1.0_01';
+  $Graphics::Potrace::Raster::VERSION = '0.1.0_03';
 }
 
 # ABSTRACT: raster representation for Graphics::Potrace
@@ -270,7 +270,7 @@ Graphics::Potrace::Raster - raster representation for Graphics::Potrace
 
 =head1 VERSION
 
-version 0.1.0_01
+version 0.1.0_03
 
 =head1 SYNOPSIS
 

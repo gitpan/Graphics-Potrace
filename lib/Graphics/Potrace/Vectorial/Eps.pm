@@ -1,6 +1,6 @@
 package Graphics::Potrace::Vectorial::Eps;
 {
-  $Graphics::Potrace::Vectorial::Eps::VERSION = '0.1.0_01';
+  $Graphics::Potrace::Vectorial::Eps::VERSION = '0.1.0_03';
 }
 
 # ABSTRACT: Encapsulated Postscript exporter for Graphics::Potrace
@@ -79,7 +79,7 @@ Graphics::Potrace::Vectorial::Eps - Encapsulated Postscript exporter for Graphic
 
 =head1 VERSION
 
-version 0.1.0_01
+version 0.1.0_03
 
 =head1 DESCRIPTION
 

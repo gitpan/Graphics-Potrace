@@ -1,6 +1,6 @@
 package Graphics::Potrace::Vectorial;
 {
-  $Graphics::Potrace::Vectorial::VERSION = '0.1.0_01';
+  $Graphics::Potrace::Vectorial::VERSION = '0.1.0_03';
 }
 
 # ABSTRACT: vectorial manipulator for Graphics::Potrace
@@ -71,7 +71,7 @@ Graphics::Potrace::Vectorial - vectorial manipulator for Graphics::Potrace
 
 =head1 VERSION
 
-version 0.1.0_01
+version 0.1.0_03
 
 =head1 SYNOPSIS
 

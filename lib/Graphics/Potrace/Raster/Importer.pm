@@ -1,6 +1,6 @@
 package Graphics::Potrace::Raster::Importer;
 {
-  $Graphics::Potrace::Raster::Importer::VERSION = '0.1.0_01';
+  $Graphics::Potrace::Raster::Importer::VERSION = '0.1.0_03';
 }
 
 # ABSTRACT: vectorial exporter base class for Graphics::Potrace
@@ -65,7 +65,7 @@ Graphics::Potrace::Raster::Importer - vectorial exporter base class for Graphics
 
 =head1 VERSION
 
-version 0.1.0_01
+version 0.1.0_03
 
 =head1 DESCRIPTION
 

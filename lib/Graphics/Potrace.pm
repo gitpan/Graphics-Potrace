@@ -1,6 +1,6 @@
 package Graphics::Potrace;
 {
-  $Graphics::Potrace::VERSION = '0.1.0_01';
+  $Graphics::Potrace::VERSION = '0.1.0_03';
 }
 
 # ABSTRACT: bindings to the potrace library
@@ -77,7 +77,7 @@ Graphics::Potrace - bindings to the potrace library
 
 =head1 VERSION
 
-version 0.1.0_01
+version 0.1.0_03
 
 =head1 SYNOPSIS
 

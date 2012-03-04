@@ -1,6 +1,6 @@
 package Graphics::Potrace::Raster::Packed;
 {
-  $Graphics::Potrace::Raster::Packed::VERSION = '0.1.0_01';
+  $Graphics::Potrace::Raster::Packed::VERSION = '0.1.0_03';
 }
 
 # ABSTRACT: importer of packed rasters for Graphics::Potrace
@@ -40,7 +40,7 @@ Graphics::Potrace::Raster::Packed - importer of packed rasters for Graphics::Pot
 
 =head1 VERSION
 
-version 0.1.0_01
+version 0.1.0_03
 
 =head1 DESCRIPTION
 
