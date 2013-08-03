@@ -2,7 +2,7 @@ NAME
     Graphics::Potrace - bindings to the potrace library
 
 VERSION
-    version 0.1.0_03
+    version 0.72
 
 SYNOPSIS
        # Step by step

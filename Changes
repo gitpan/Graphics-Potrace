@@ -1,3 +1,7 @@
+0.72      2013-08-03 20:10:30 Europe/Rome
+   - Added one test on trace
+   - release!
+
 0.1.0_03  2012-03-04 01:11:20 Europe/Rome
    - Checking for potrace executable before generating Makefile
    - Added README.md to the project

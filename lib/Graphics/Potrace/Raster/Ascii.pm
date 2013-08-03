@@ -1,6 +1,6 @@
 package Graphics::Potrace::Raster::Ascii;
 {
-  $Graphics::Potrace::Raster::Ascii::VERSION = '0.1.0_03';
+  $Graphics::Potrace::Raster::Ascii::VERSION = '0.72';
 }
 
 # ABSTRACT: importer of ASCII images for Graphics::Potrace
@@ -50,7 +50,7 @@ Graphics::Potrace::Raster::Ascii - importer of ASCII images for Graphics::Potrac
 
 =head1 VERSION
 
-version 0.1.0_03
+version 0.72
 
 =head1 SYNOPSIS
 
@@ -70,6 +70,8 @@ characters that will be treated as blanks (by default dots, spaces
 and zeroes) or filled ones (any other character). You can set your
 "idea" of what an empty pixel is by means of L</empty_tester> (which
 you can set in the constructor as well).
+
+=encoding utf-8
 
 =head1 INTERFACE
 

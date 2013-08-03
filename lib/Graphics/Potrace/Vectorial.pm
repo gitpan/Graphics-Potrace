@@ -1,6 +1,6 @@
 package Graphics::Potrace::Vectorial;
 {
-  $Graphics::Potrace::Vectorial::VERSION = '0.1.0_03';
+  $Graphics::Potrace::Vectorial::VERSION = '0.72';
 }
 
 # ABSTRACT: vectorial manipulator for Graphics::Potrace
@@ -71,7 +71,7 @@ Graphics::Potrace::Vectorial - vectorial manipulator for Graphics::Potrace
 
 =head1 VERSION
 
-version 0.1.0_03
+version 0.72
 
 =head1 SYNOPSIS
 
@@ -154,6 +154,8 @@ what you need:
 
 As in the L</export> case, you have to at least provide the C<$type> of
 rendering that you need.
+
+=encoding utf-8
 
 =head1 INTERFACE
 

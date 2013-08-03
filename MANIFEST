@@ -19,6 +19,7 @@ lib/Graphics/Potrace/Vectorial/Svg.pm
 ppport.h
 t/00-load.t
 t/01-version.t
+t/02-trace.t
 t/complicated.ascii
 t/empty.ascii
 t/fig1.ascii

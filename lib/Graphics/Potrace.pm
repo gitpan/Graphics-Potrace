@@ -1,6 +1,6 @@
 package Graphics::Potrace;
 {
-  $Graphics::Potrace::VERSION = '0.1.0_03';
+  $Graphics::Potrace::VERSION = '0.72';
 }
 
 # ABSTRACT: bindings to the potrace library
@@ -77,7 +77,7 @@ Graphics::Potrace - bindings to the potrace library
 
 =head1 VERSION
 
-version 0.1.0_03
+version 0.72
 
 =head1 SYNOPSIS
 
@@ -141,6 +141,8 @@ Potrace (L<http://potrace.sourceforge.net/>) is a program (and a library)
 by Peter Salinger for I<Transforming bitmaps into vector graphics>. This
 distribution aims at binding the library from Perl for your fun and
 convenience.
+
+=encoding utf-8
 
 =head1 INTERFACE
 

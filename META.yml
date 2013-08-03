@@ -15,4 +15,4 @@ name: Graphics-Potrace
 requires:
   Moo: 0.009011
   perl: 5.008_000
-version: 0.1.0_03
+version: 0.72

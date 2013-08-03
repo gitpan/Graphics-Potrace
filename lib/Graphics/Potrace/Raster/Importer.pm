@@ -1,6 +1,6 @@
 package Graphics::Potrace::Raster::Importer;
 {
-  $Graphics::Potrace::Raster::Importer::VERSION = '0.1.0_03';
+  $Graphics::Potrace::Raster::Importer::VERSION = '0.72';
 }
 
 # ABSTRACT: vectorial exporter base class for Graphics::Potrace
@@ -65,7 +65,7 @@ Graphics::Potrace::Raster::Importer - vectorial exporter base class for Graphics
 
 =head1 VERSION
 
-version 0.1.0_03
+version 0.72
 
 =head1 DESCRIPTION
 
@@ -78,6 +78,8 @@ You only need to override one of three methods: L</load_handle> or L</load_data>
 In this class these two methods are both defined in terms of the other,
 so that you can really override only one of them and get the other one
 for free.
+
+=encoding utf-8
 
 =head1 INTERFACE
 

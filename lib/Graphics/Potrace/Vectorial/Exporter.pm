@@ -1,6 +1,6 @@
 package Graphics::Potrace::Vectorial::Exporter;
 {
-  $Graphics::Potrace::Vectorial::Exporter::VERSION = '0.1.0_03';
+  $Graphics::Potrace::Vectorial::Exporter::VERSION = '0.72';
 }
 
 # ABSTRACT: vectorial exporter base class for Graphics::Potrace
@@ -105,7 +105,7 @@ Graphics::Potrace::Vectorial::Exporter - vectorial exporter base class for Graph
 
 =head1 VERSION
 
-version 0.1.0_03
+version 0.72
 
 =head1 DESCRIPTION
 
@@ -139,6 +139,8 @@ L<Graphics::Potrace::Vectorial/create_exporter> like this:
    my $e1 = $vector->create_exporter($type, file => $filename);
    my $e2 = $vector->create_exporter($type, file => \my $text);
    my $e3 = $vector->create_exporter($type, fh   => $filehandle);
+
+=encoding utf-8
 
 =head1 INTERFACE
 

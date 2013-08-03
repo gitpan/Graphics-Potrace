@@ -1,6 +1,6 @@
 package Graphics::Potrace::Raster::Packed;
 {
-  $Graphics::Potrace::Raster::Packed::VERSION = '0.1.0_03';
+  $Graphics::Potrace::Raster::Packed::VERSION = '0.72';
 }
 
 # ABSTRACT: importer of packed rasters for Graphics::Potrace
@@ -40,7 +40,7 @@ Graphics::Potrace::Raster::Packed - importer of packed rasters for Graphics::Pot
 
 =head1 VERSION
 
-version 0.1.0_03
+version 0.72
 
 =head1 DESCRIPTION
 
@@ -49,6 +49,8 @@ L<Graphics::Potrace::Raster::Importer>, so see it for generic methods.
 In particular, this class overrides L</load_handle> in order to
 provide means to load a raster image from a packed version of some
 other raster image (see L<Graphics::Potrace::Raster/packed>).
+
+=encoding utf-8
 
 =head1 INTERFACE
 
