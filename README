@@ -2,7 +2,7 @@ NAME
     Graphics::Potrace - bindings to the potrace library
 
 VERSION
-    version 0.72
+    version 0.73
 
 SYNOPSIS
        # Step by step
@@ -61,7 +61,7 @@ SYNOPSIS
 
 DESCRIPTION
     Potrace (<http://potrace.sourceforge.net/>) is a program (and a library)
-    by Peter Salinger for *Transforming bitmaps into vector graphics*. This
+    by Peter Selinger for *Transforming bitmaps into vector graphics*. This
     distribution aims at binding the library from Perl for your fun and
     convenience.
 
@@ -159,7 +159,7 @@ AUTHOR
     Flavio Poletti <polettix@cpan.org>
 
 COPYRIGHT AND LICENSE
-    Copyright (C) 2011 by Flavio Poletti polettix@cpan.org.
+    Copyright (C) 2011-2013 by Flavio Poletti polettix@cpan.org.
 
     This module is free software. You can redistribute it and/or modify it
     under the terms of the Artistic License 2.0.

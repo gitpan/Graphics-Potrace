@@ -1,6 +1,6 @@
 package Graphics::Potrace;
 {
-  $Graphics::Potrace::VERSION = '0.72';
+  $Graphics::Potrace::VERSION = '0.73';
 }
 
 # ABSTRACT: bindings to the potrace library
@@ -68,8 +68,11 @@ sub trace {
 
 1;
 
+__END__
 
 =pod
+
+=encoding utf-8
 
 =head1 NAME
 
@@ -77,7 +80,7 @@ Graphics::Potrace - bindings to the potrace library
 
 =head1 VERSION
 
-version 0.72
+version 0.73
 
 =head1 SYNOPSIS
 
@@ -138,11 +141,9 @@ version 0.72
 =head1 DESCRIPTION
 
 Potrace (L<http://potrace.sourceforge.net/>) is a program (and a library)
-by Peter Salinger for I<Transforming bitmaps into vector graphics>. This
+by Peter Selinger for I<Transforming bitmaps into vector graphics>. This
 distribution aims at binding the library from Perl for your fun and
 convenience.
-
-=encoding utf-8
 
 =head1 INTERFACE
 
@@ -273,7 +274,7 @@ Flavio Poletti <polettix@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2011 by Flavio Poletti polettix@cpan.org.
+Copyright (C) 2011-2013 by Flavio Poletti polettix@cpan.org.
 
 This module is free software.  You can redistribute it and/or
 modify it under the terms of the Artistic License 2.0.
@@ -283,7 +284,3 @@ but without any warranty; without even the implied warranty of
 merchantability or fitness for a particular purpose.
 
 =cut
-
-
-__END__
-

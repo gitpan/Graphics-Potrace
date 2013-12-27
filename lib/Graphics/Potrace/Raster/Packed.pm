@@ -1,6 +1,6 @@
 package Graphics::Potrace::Raster::Packed;
 {
-  $Graphics::Potrace::Raster::Packed::VERSION = '0.72';
+  $Graphics::Potrace::Raster::Packed::VERSION = '0.73';
 }
 
 # ABSTRACT: importer of packed rasters for Graphics::Potrace
@@ -31,8 +31,11 @@ sub load_handle {
 
 1;
 
+__END__
 
 =pod
+
+=encoding utf-8
 
 =head1 NAME
 
@@ -40,7 +43,7 @@ Graphics::Potrace::Raster::Packed - importer of packed rasters for Graphics::Pot
 
 =head1 VERSION
 
-version 0.72
+version 0.73
 
 =head1 DESCRIPTION
 
@@ -49,8 +52,6 @@ L<Graphics::Potrace::Raster::Importer>, so see it for generic methods.
 In particular, this class overrides L</load_handle> in order to
 provide means to load a raster image from a packed version of some
 other raster image (see L<Graphics::Potrace::Raster/packed>).
-
-=encoding utf-8
 
 =head1 INTERFACE
 
@@ -72,7 +73,7 @@ Flavio Poletti <polettix@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2011 by Flavio Poletti polettix@cpan.org.
+Copyright (C) 2011-2013 by Flavio Poletti polettix@cpan.org.
 
 This module is free software.  You can redistribute it and/or
 modify it under the terms of the Artistic License 2.0.
@@ -82,7 +83,3 @@ but without any warranty; without even the implied warranty of
 merchantability or fitness for a particular purpose.
 
 =cut
-
-
-__END__
-

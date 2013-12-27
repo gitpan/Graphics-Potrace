@@ -18,26 +18,27 @@ if (open my $olderr, '>&', \*STDERR) {
 }
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'bindings to the potrace library',
-  'AUTHOR' => 'Flavio Poletti <polettix@cpan.org>',
-  'BUILD_REQUIRES' => {},
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "ABSTRACT" => "bindings to the potrace library",
+  "AUTHOR" => "Flavio Poletti <polettix\@cpan.org>",
+  "BUILD_REQUIRES" => {},
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'Graphics-Potrace',
-  'EXE_FILES' => [],
-  'INC' => '-I/opt/local/include',
-  'LIBS' => [
-    '-L/opt/local/lib -lpotrace'
+  "DISTNAME" => "Graphics-Potrace",
+  "EXE_FILES" => [],
+  "INC" => "-I/opt/local/include",
+  "LIBS" => [
+    "-L/opt/local/lib -lpotrace"
   ],
-  'LICENSE' => 'artistic_2',
-  'NAME' => 'Graphics::Potrace',
-  'PREREQ_PM' => {
-    'Moo' => '0.009011'
+  "LICENSE" => "artistic_2",
+  "NAME" => "Graphics::Potrace",
+  "PREREQ_PM" => {
+    "Moo" => "0.009011"
   },
-  'VERSION' => '0.72',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "TEST_REQUIRES" => {},
+  "VERSION" => "0.73",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 

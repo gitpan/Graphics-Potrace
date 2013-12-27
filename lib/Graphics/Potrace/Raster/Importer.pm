@@ -1,6 +1,6 @@
 package Graphics::Potrace::Raster::Importer;
 {
-  $Graphics::Potrace::Raster::Importer::VERSION = '0.72';
+  $Graphics::Potrace::Raster::Importer::VERSION = '0.73';
 }
 
 # ABSTRACT: vectorial exporter base class for Graphics::Potrace
@@ -56,8 +56,11 @@ sub load {
 
 1;
 
+__END__
 
 =pod
+
+=encoding utf-8
 
 =head1 NAME
 
@@ -65,7 +68,7 @@ Graphics::Potrace::Raster::Importer - vectorial exporter base class for Graphics
 
 =head1 VERSION
 
-version 0.72
+version 0.73
 
 =head1 DESCRIPTION
 
@@ -78,8 +81,6 @@ You only need to override one of three methods: L</load_handle> or L</load_data>
 In this class these two methods are both defined in terms of the other,
 so that you can really override only one of them and get the other one
 for free.
-
-=encoding utf-8
 
 =head1 INTERFACE
 
@@ -141,7 +142,7 @@ Flavio Poletti <polettix@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2011 by Flavio Poletti polettix@cpan.org.
+Copyright (C) 2011-2013 by Flavio Poletti polettix@cpan.org.
 
 This module is free software.  You can redistribute it and/or
 modify it under the terms of the Artistic License 2.0.
@@ -151,7 +152,3 @@ but without any warranty; without even the implied warranty of
 merchantability or fitness for a particular purpose.
 
 =cut
-
-
-__END__
-

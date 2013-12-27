@@ -1,6 +1,6 @@
 package Graphics::Potrace::Vectorial::Exporter;
 {
-  $Graphics::Potrace::Vectorial::Exporter::VERSION = '0.72';
+  $Graphics::Potrace::Vectorial::Exporter::VERSION = '0.73';
 }
 
 # ABSTRACT: vectorial exporter base class for Graphics::Potrace
@@ -96,8 +96,11 @@ sub save {
 
 1;
 
+__END__
 
 =pod
+
+=encoding utf-8
 
 =head1 NAME
 
@@ -105,7 +108,7 @@ Graphics::Potrace::Vectorial::Exporter - vectorial exporter base class for Graph
 
 =head1 VERSION
 
-version 0.72
+version 0.73
 
 =head1 DESCRIPTION
 
@@ -139,8 +142,6 @@ L<Graphics::Potrace::Vectorial/create_exporter> like this:
    my $e1 = $vector->create_exporter($type, file => $filename);
    my $e2 = $vector->create_exporter($type, file => \my $text);
    my $e3 = $vector->create_exporter($type, fh   => $filehandle);
-
-=encoding utf-8
 
 =head1 INTERFACE
 
@@ -260,7 +261,7 @@ Flavio Poletti <polettix@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2011 by Flavio Poletti polettix@cpan.org.
+Copyright (C) 2011-2013 by Flavio Poletti polettix@cpan.org.
 
 This module is free software.  You can redistribute it and/or
 modify it under the terms of the Artistic License 2.0.
@@ -270,7 +271,3 @@ but without any warranty; without even the implied warranty of
 merchantability or fitness for a particular purpose.
 
 =cut
-
-
-__END__
-

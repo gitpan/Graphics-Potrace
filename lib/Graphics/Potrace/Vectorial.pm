@@ -1,6 +1,6 @@
 package Graphics::Potrace::Vectorial;
 {
-  $Graphics::Potrace::Vectorial::VERSION = '0.72';
+  $Graphics::Potrace::Vectorial::VERSION = '0.73';
 }
 
 # ABSTRACT: vectorial manipulator for Graphics::Potrace
@@ -62,8 +62,11 @@ sub create_exporter {
 
 1;
 
+__END__
 
 =pod
+
+=encoding utf-8
 
 =head1 NAME
 
@@ -71,7 +74,7 @@ Graphics::Potrace::Vectorial - vectorial manipulator for Graphics::Potrace
 
 =head1 VERSION
 
-version 0.72
+version 0.73
 
 =head1 SYNOPSIS
 
@@ -154,8 +157,6 @@ what you need:
 
 As in the L</export> case, you have to at least provide the C<$type> of
 rendering that you need.
-
-=encoding utf-8
 
 =head1 INTERFACE
 
@@ -253,7 +254,7 @@ Flavio Poletti <polettix@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2011 by Flavio Poletti polettix@cpan.org.
+Copyright (C) 2011-2013 by Flavio Poletti polettix@cpan.org.
 
 This module is free software.  You can redistribute it and/or
 modify it under the terms of the Artistic License 2.0.
@@ -263,7 +264,3 @@ but without any warranty; without even the implied warranty of
 merchantability or fitness for a particular purpose.
 
 =cut
-
-
-__END__
-
